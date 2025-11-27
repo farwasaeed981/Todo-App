@@ -1,0 +1,71 @@
+.todo-app {
+  text-align: center;
+  background: hsl(0deg 0% 11.76%);
+  width: 400px;
+  margin: auto;
+  min-height: 50vh;
+  padding: 30px;
+  font-family: sans-serif;
+}
+.todo-app h2 {
+  color: #fff;
+}
+.field{
+  display: flex;
+  justify-content: space-between;
+}
+.todo-app .field input {
+  margin-right: 10px;
+  /* height: 22px; */
+  padding: 0.625rem;
+  border-radius: 5px;
+  background: hsl(0deg 0% 17.25%);
+  border: none;
+  font-size: 12px;
+  width: 70%;
+  color: #fff;
+}
+.add-btn {
+  padding: 0.625rem 1.25rem;
+  border-radius: 5px;
+  width: 5rem;
+  font-size: 12px;
+  background: hsl(218.04deg 93.27% 59.22%);
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 12px;
+}
+.list {
+  list-style-type: none;
+  padding: 0;
+}
+.list-desc {
+  display: flex;
+  align-content: space-between;
+  justify-content: space-between;
+  margin: 10px 0;
+  font-size: 13px;
+  color: #fff;
+  border-bottom: 0.0625rem solid #333;
+  padding: 0.625rem;
+}
+.delete-btn {
+  background: none;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+html {
+  background-color: #000;
+}
+#empty-msg{
+  background: #dd7171;
+  color: #fff;
+  font-size: 12px;
+  margin: 9px auto;
+  width: fit-content;
+  text-align: center;
+  padding: 0.225rem;
+  display: none;
+}
