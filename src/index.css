@@ -1,7 +1,8 @@
 .todo-app {
   text-align: center;
   background: hsl(0deg 0% 11.76%);
-  width: 400px;
+  max-width: 400px;
+  width: 90%;
   margin: auto;
   min-height: 50vh;
   padding: 30px;
@@ -68,4 +69,13 @@ html {
   text-align: center;
   padding: 0.225rem;
   display: none;
+}
+@media (max-width: 480px) {
+  .todo-app {
+    padding: 20px;
+  }
+
+  .add-btn {
+    width: 4rem;
+  }
 }
